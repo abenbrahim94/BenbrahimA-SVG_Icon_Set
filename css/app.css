@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    background-color: #8395a7;
+
+
+}
+
+.container h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #fff;
+
+}
+
+
+.container h4 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px 10px;
+    justify-items: center;
+    margin-top: 10%;
+
+
+}
+
+
+.container-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-img h4{
+    margin-top: auto;
+}
+
+.svg-img:hover{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+    cursor: pointer;
+        transform: scale(1.4);
+      transition: all 1s ease-in-out;
+
+    
+
+}
